@@ -12,8 +12,8 @@ El proceso maneja un flujo de datos de extremo a extremo: desde la obtención de
 **Tareas principales ejecutadas por el robot:**
 
 1.  **Obtención y Respaldo de Datos:** Consume la API de Fake Store para obtener la lista de productos y guarda un archivo de respaldo en formato JSON.
-2.  **Almacenamiento Persistente:** Almacena los productos en una Base de Datos (ej: SQLite), aplicando validación para evitar duplicados.
-3.  **Generación de Reporte:** Genera un archivo `.xlsx` con estadísticas clave (precio promedio, conteo por categoría, etc.).
+2.  **Almacenamiento Persistente:** Almacena los productos en una Base de Datos, aplicando validación para evitar duplicados.
+3.  **Generación de Reporte:** Genera un archivo `.xlsx` con estadísticas clave (precio promedio, conteo por categoría, precio promedio por categoria).
 4.  **Integración con Microsoft Graph (OneDrive):** Sube el archivo JSON de respaldo y el reporte Excel a OneDrive de forma **desatendida** utilizando el flujo de **Refresh Token**.
 5.  **Automatización Web:** Rellena y sube el reporte generado a un formulario web, registrando una evidencia de la confirmación.
 

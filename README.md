@@ -54,7 +54,7 @@ Todos los valores deben estar centralizados en un archivo de configuración (`co
 
 Para la **Automatización Web (Paso 4)**, se utilizó la siguiente URL del formulario web creado con Google Forms.
 
-**Enlace del Formulario:**
+**Enlace:**
 
 > `https://docs.google.com/forms/d/e/1FAIpQLSc8-AkwuO9U3nla7ogmsSq3walN_ZrieUlruJNQ_I2eO6MOrQ/viewform?usp=dialog`
 
